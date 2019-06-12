@@ -1,0 +1,30 @@
+*{
+    -webkit-touch-callout: none;
+}
+.el-row{
+   
+    line-height: 40px;
+    font-size:14px; 
+}
+
+.el-title{
+    margin:0;
+    box-shadow: 0px 1px 1px 0px rgba(170, 170, 170, 1);
+}
+.el-content{
+    margin-top:1px;
+}
+.el-plain{
+  background:#CCCCCC;
+  border:1px solid #CCCCCC ;
+}
+button{
+    background:#ccc;
+    padding:2px 10px;
+    border:0px;
+}
+.el-orange{
+    background:#FFA940 ;
+    border:1px solid #FFA940 ;
+    color:#fff;
+}

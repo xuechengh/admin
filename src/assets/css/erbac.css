@@ -1,0 +1,385 @@
+*{
+    -webkit-touch-callout: none; 
+}
+html{-webkit-text-size-adjust:none;} 
+.searchBtn{
+    position:fixed;
+    top:0;
+    line-height: 46px;
+    z-index: 26;
+    width:100%;
+  
+}
+.modelBlem{
+ background:white;
+}
+.modelBlock{
+    position: relative;;
+    overflow: hidden; 
+    border:1px solid #F2F2F2;
+    background:#F2F2F2;
+    border-radius:5px ;
+    margin:8px 0 0px 0 ;
+    box-shadow:0 0 0 #fff;
+    
+
+}
+.peoButn{
+    border:0;
+    background-color:rgb(204,204,204);
+    padding:2px 10px;
+    border-radius:13px;
+    color:#fff;
+    margin:2px 6px 6px 2px;
+ }
+ .el-blue{
+    background-color:rgb(64,158,255); 
+ }
+img{
+
+    border-radius:5px 5px 0 0 ; 
+    pointer-events: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select:none;  
+    -o-user-select:none;  
+    user-select:none;   
+}
+
+
+.genre{
+    text-indent: .5em;
+    text-align:left;
+    background:#F2F2F2 100%;
+}
+.genrn{
+    text-align:left;
+    background:#F2F2F2 100%;
+}
+.genrn-writ{
+   background:white;
+    color:black;
+}
+.erbacSure{
+    line-height: 40px;
+    color:#F56C6C;
+    
+}
+.sureBtn{
+  background:white;
+    border-top:1px solid #eee;
+    width:100%;
+    overflow: hidden;
+    position:fixed;
+    bottom: 0;
+    z-index:30;
+}
+
+.panBar{
+  line-height:15px;  
+}
+.panImg{
+    padding:15px;
+    height:70px;
+    width:70px;
+}
+.panStr{
+    margin-top:15px;
+}
+.panl{
+    text-align: left;
+    font-size:14px;
+}
+.gert{
+  background-color: rgb(242,242,242);  
+}
+.gpantil{
+    font-size: 14px;
+    line-height:40px;
+   text-align: left;
+   
+}
+.circleBtn{
+   text-align: center;
+    height:10px;
+    width:10px;   
+}
+.administrators{
+  margin-bottom:10px;  
+} 
+.gpannels{
+    padding-bottom:23px;
+}
+.gpantils{
+    border-bottom:1px solid #eee;
+    font-size:12px;
+}
+.pictureAccompany{
+    position: relative;
+}
+.checkboxBtn{
+    position: absolute;
+    top:5px;
+    right:5px;
+    z-index:21;
+    border-radius:50%;
+}
+
+.shade{
+    position: absolute;;
+  width:100%;
+  height: 100%;
+  background:black;
+  display:none;
+  opacity:.35;
+  top:0;
+  left:0;  
+ z-index:20;
+}
+.boxBtn{
+    width:20px;
+    height:20px;
+    font-size:20px;
+    z-index:0;
+    color:black;
+  
+}
+.boxall{
+    width:20px;
+    height:20px;
+    font-size:20px;
+    z-index:0;
+    color:black;
+}
+.tickImg{
+    position: absolute;
+   top:0;
+   left:0; 
+  opacity: 0;
+  z-index:22;
+}
+.el-message-box{
+  width:200px;
+}
+.addErbac{ 
+    padding:46px 0 40px 0;
+}
+.boxBtnb{
+    display:none;
+}
+.el-chief{
+ 
+    padding-top:50px;
+
+}
+.coursewareTable{
+  
+    width:100%;
+
+    text-align: center;
+     margin-top:18px;
+    border-bottom:1px solid #eee;
+    
+}
+.el-content{
+    width:100%;
+
+    border-bottom:1px solid #eee;
+
+}
+.el-img{
+    padding-top:5px;
+      width:75px;
+      height:75px;
+      
+  }
+  .grid-content{
+      background:white;
+  }
+  .el-title{
+    text-indent:1em;
+    
+   line-height:15px;
+    width:100%;
+    text-align:left;
+    font-size:14px;
+    margin-top:5px;
+    
+}
+.el-title-t{
+   
+    height:25px;
+    line-height:25px;
+    
+}
+.el-name{
+    text-indent:1em;
+   
+    line-height:25px;
+    text-align:left;
+    font-size:14px;
+    left: 85px;
+
+
+color: rgba(96, 98, 102, 1);
+font-family: Arial;
+
+}
+.putmark{
+    margin-top:10px;
+}
+.reviewIntroduction{
+    margin-top:10px;
+}
+.el-head-title{
+line-height:30px;
+background:rgb(242,242,242);
+}
+.el-dranger-color{
+    font-size:14px;
+    color:rgb(245,108,108);
+
+    
+}
+.el-peo-input{
+    line-height:40px;
+    overflow: hidden;
+    padding:10px 15px;
+}
+.el-n-img{
+    width:20px;
+    height:20px;
+}
+.pamark{
+display:none;  
+}
+.cb{
+    width:100%;;height:30px;  
+   background:rgb(242,242,242);
+  
+   position:relative;
+}
+.loadmark{
+    height:30px;position:relative;
+}
+svg{
+    position:absolute;top:10px;width:20px;height:20px;
+   
+}
+.choice_radio{
+    float: left;
+
+    width:45px;
+   height:20px;
+   margin-right:10px;
+}
+.cram{
+    text-align: center;
+    width:20px;
+    line-height:20px;
+    height:20px;
+    float:left;
+   position: relative;  
+}
+.cram>img{
+position:absolute;
+top:0;
+left:0;
+}
+
+.pramse{
+    opacity:0;
+}
+.userlist{
+    margin-top:50px;
+
+}
+.tabulatcard{
+  height:100px; 
+  width:100%;
+  line-height:100px;
+  background:#fff; 
+  position:relative;
+  margin-bottom:10px;
+
+}
+.tabulatext{
+    height:100px;
+    width:100%;
+    overflow: hidden;
+}
+.character{
+    display:block;
+    height:34px;
+    line-height:34px;
+    text-align:left;
+    padding:0 100px;
+    overflow: hidden;
+}
+.searchshadow{
+    box-shadow:0 1px 3px rgba(0,0,0,.3);
+}
+.tabImgman{
+  
+  position: absolute;
+  top:10px;
+  left:10px;
+  height:80px;
+}
+.selectdial{
+  border-left:1px solid rgb(233, 233, 233);
+  position:absolute;
+  height:80px;
+  width:80px;  
+  top:10px;
+  right:0px;
+}
+.dialup{
+ display:block;
+ height:40px;
+ line-height:40px;
+}
+.dialImg{
+ height:40px;
+ width:40px; 
+ margin-left:20px;
+ display: block;
+
+ color:#fff;
+ line-height:40px;
+   font-size:25px;
+   text-align: center;
+   border-radius:50%;
+   background:rgb(103,194,58);
+}
+.diagrn{
+    font-size:14px;
+    color:rgb(103,194,58);
+}
+.tabl{float:left;line-height:43px;}
+.tabb{line-height:43px;}
+.tabr{float:right;}
+.abn{
+ font-size:14px;
+ text-align:right;
+}
+.tinm{line-height:-20px;}
+.tabImg{
+  height:80px;
+  width:80px; 
+  border-radius:50%; 
+}
+.el-size-14{
+    font-size:14px;
+}
+.el-blur{
+  color:rgb(193,197,205);  
+}
+.tag-read{
+    border:0;
+    background:#fff;
+    
+}
+.el-background-blur{
+    
+   }

@@ -1,0 +1,25 @@
+*{
+    -webkit-touch-callout: none;
+}
+.el-row{
+   
+    line-height: 40px;
+    
+    text-indent: 1em;
+    font-size:14px; 
+}
+.el-row .el-col:nth-child(1){
+    text-align:left;
+}
+.el-row .el-col:nth-child(2){
+    text-align:right;
+    position: relative;
+    right:10px;
+}
+.el-title{
+    margin:0;
+    box-shadow: 0px 1px 1px 0px rgba(170, 170, 170, 1);
+}
+.el-content{
+    margin-top:1px;
+}

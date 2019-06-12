@@ -1,0 +1,288 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+*:not(input,textarea) { 
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+}
+.screenshot{
+ 
+  position:fixed;
+  top:0;
+  background:white;
+}
+
+.tailor{
+
+height:60px;
+overflow: hidden;
+}
+.taibtn{
+    margin-top:10px;
+    border:0;
+    background:0;
+    font-size:20px;
+    padding:10px;
+}
+.taileft{
+ float:left;
+}
+.tairight{
+ float:right;
+}
+.manner{
+    overflow: hidden;
+    position: relative;;
+}
+.mannerbtn{
+    position:absolute;
+    top:-50px;
+    right:15px;
+}
+.selectmenu{ margin-top:10px;overflow:hidden;background:white;}
+.selectbanrow{
+    margin-top:10px;
+    line-height:40px;
+
+}
+.selectmenurow{
+   border-bottom:1px solid rgb(233,233,233);
+    line-height:40px;
+}
+.selectbanl{
+    margin-left:15px;
+    float:left;
+}
+.selectbanr{
+    margin-right:15px;
+    float:right;
+
+}
+.carte{
+    float:left;
+}
+.selectImg{
+  
+    width:50px;
+ 
+
+  
+    line-height:30px;
+    position:relative;
+}
+.selectImg>img{
+    
+    width:50px;
+    line-height:70px;
+    
+}
+.selectspan{
+    height:20px;
+    line-height:20px;
+    font-size:8px;
+}
+.substance{
+    padding:0px 10px 0px;   
+}
+.subraggable{
+   position:relative; 
+    overflow: hidden;
+}
+.tabulashade{
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   z-index:20;
+}
+
+.selectimgs{
+    width:50px;
+    padding:2px;
+    height:70px;
+}
+.addImg{
+    height:74px;
+   width:50px;
+ 
+}
+.iconclose{
+    color:rgb(231,31,25);
+    position:absolute;
+    font-size:22px;
+    top:-2px;
+    right:-2px;
+}
+.checkeImg{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:2px;
+    left:2px;
+
+}
+.untick{
+    opacity:0;
+}
+.selleft{
+  float:left;
+
+  text-indent:1em;
+  font-size:14px;
+   color:rgb(139,139,139);
+}
+.selleftman{
+    text-indent:1em;
+    float:left;
+    color:rgb(196,199,207);
+   font-size:9px;
+}
+.siz16{
+ font-size:12px;
+ color:black;
+}
+.intercalate{
+    float:right;
+    margin-right:20px;
+    color:rgb(0,0,0);
+}
+.setfit{
+   
+   overflow: hidden;
+}
+.rem{
+    color:red;
+    float:right;
+    margin-right:20px;
+}
+.tabulatin{
+   
+    padding:0 15px;
+}
+
+.cardstrip{
+ position:relative;  
+ overflow:hidden;height:120px; 
+ background:rgb(242,242,242);
+ border-radius:5px;
+ padding:2px;
+}
+.sales{
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.tabulaImg{
+ height:120px;
+ width:120px;
+ position:absolute;
+ top:2px;
+ left:2px;
+}
+.switchcard{
+width:120px;
+height:30px;
+position:absolute;
+left:2px;
+bottom:0; 
+background:#000;
+opacity:.35;
+z-index:2;
+}
+.switchspan{
+    height:30px;
+    width:120px;
+position: absolute;
+left:2px;
+bottom:0;
+z-index:3; 
+color:#fff;
+line-height:30px;
+text-align:center;
+font-size:14px;
+}
+.textal{
+   
+    text-indent:1em;
+    float:left;
+line-height:30px;
+width:100%;
+margin-bottom:15px;
+}
+.modtype{
+    color:white;
+    background:rgb(183,183,183);
+    border-radius:5px;
+    padding:0 10px 3px;
+}
+.emulate{
+    padding-left:4px;
+  text-align:left;
+  margin-left:120px;
+  font-size:14px;
+  line-height:28px;
+}
+.col204{
+   color:rgb(204,204,204); 
+}
+.rmb{color:rgb(255,178,75);float:right;margin-right:10px;}
+.customcontent{
+ overflow: hidden;
+}
+.cusdiv{
+ 
+    overflow: hidden;
+    margin-top:20px;
+}
+.customname{
+    float:left;
+   
+    margin-bottom:10px;
+}
+.setfitbutton{
+    margin-right:10px;
+    color:#000;
+    background:#fff;
+    padding:4px 20px;
+    border:1px solid rgb(234,234,234);
+    border-radius:5px;
+    float:left;
+}
+.setfitbtn{
+    overflow: hidden;
+   
+    
+}
+.el-blue{
+    color:#fff;
+    background-color:rgb(64,158,255); 
+ }
+ .addmanual{
+     height:120px;
+     margin:0 0px 25px;
+     
+ }
+ .addcord{
+     height:100%;
+     width:100%;
+ }
+ .el-dialog__body{
+     overflow:hidden;
+ }
+ .carteiconRan{
+
+     overflow: hidden;
+ }
+ .draging{
+    position:absolute;
+ }
+
+ .elcolor{
+    color:rgb(196,199,207);
+     
+ }

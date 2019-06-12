@@ -1,0 +1,295 @@
+*{
+  -webkit-touch-callout: none;
+}
+html,body{
+
+  overflow:hidden;
+  overflow-y:auto;
+  overflow-x: hidden;
+  margin:0;}
+ template{
+  background-color: rgba(242, 242, 242, 1);
+ }
+ a{
+  text-decoration:none; 
+  color:#333;
+ }
+ .el-footer {
+
+  line-height: 45px;
+  background-color: rgba(64, 158, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  
+  }
+ .el-header {
+  height:0px !important;
+ }
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+  }
+  
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
+  .el-row {
+
+    background: #fff;
+   
+  }
+  .el-main{
+    background: #F2F2F2 ;
+    padding:0px 0px 20px 0px;
+  }
+  .el-col {
+    border-radius: 4px;
+  }
+
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+
+    padding: 10px 0;
+  
+  }
+  .no-border{
+    border:0;
+    font-size: 22px
+  }
+  .gutter{
+    border:1px solid black;
+    height:40px;
+    padding:0;
+    margin:0 auto;
+    width:100%;
+
+  }
+ 
+  .el-pan{
+    border-radius: 0;
+    border-bottom:1px solid #eee;
+    line-height: 40px;
+    text-align:left;
+    font-size:10px;
+    
+
+  }
+
+  .el-version{
+  
+  text-align:right;
+    }
+    .el-r{
+      text-align:right;
+    }
+    .el-l{
+      text-align:left;
+    }
+    .el-a{
+      color:#409EFF; 
+    }
+    .el-1{
+      text-indent:1em;
+    }
+    .el-mraginTop-10{
+     margin-top:10px;
+    }
+    .el-blue{
+      color:#409EFF; 
+    }
+    .el-oranger{
+      color:rgb(255, 164, 91);
+    }
+    .el-yellow{
+      color:#FFCB3E;
+    }
+    .el-purple{
+      color:#B032E5;
+    }
+    .el-green{
+      color:#4DCEBD;
+    }
+    .el-red{
+     color:#FF6667; 
+    }
+    .el-242{
+   background-color: rgba(242, 242, 242, 1);
+
+    }
+    .el-white{
+      background: white;
+ 
+    }
+    .el-text-align-1{
+      text-indent:1em;
+    }
+    .el-tum{
+      text-align: center;
+      font-size:28px;
+      color:#409EFF;
+      line-height:58px;
+    }
+    .el-lab{
+      text-align: center;
+      font-size:14px;
+       
+      line-height:42px;
+ 
+color: rgba(51, 51, 51, 1);
+
+
+font-family: PingFangSC-regular;
+
+    }
+  
+    .el-title{
+      height:40px;
+      margin-top:10px;
+    }
+    
+    .el-cord{
+      margin-top:1px;
+      font-size:14px;
+      line-height:60px;
+    }
+    .elCollapse{
+      width:100%;
+      height:100%;
+
+    }
+    .elCollapse>a{
+      width:100%;
+      height:100%;
+     display: block;
+     overflow: hidden;
+
+border-bottom: 1px solid rgba(229, 229, 229, 1);
+
+     
+    }
+    .elCollapse>.firsta{
+      border-top: 1px solid rgba(229, 229, 229, 1);
+    }
+    .elCollapse a>span{
+      
+       float: left;
+       line-height: 50px;
+    }
+    .elCollapse a>div{
+      float: right;
+      line-height: 50px;
+      margin-right:5px;
+   }
+   .collapseTitle{
+     position: relative;
+   }
+   .collapseTitle span{
+     position:absolute;
+     top:0;
+     left:0;
+    
+   }
+   .modelBlock{
+     
+     width:80px;
+    float: left;
+    margin:5px 0px;
+    background-color:white;
+    box-shadow:0 1px 3px rgba(0,0,0,.3);
+    padding-bottom: 5px !important;
+   }
+ 
+   .el-module{
+     
+    font-size: 14px;
+    background-color: rgba(242, 242, 242, 1);
+    
+   }
+   .moduleSpan{
+     font-size: 12px;
+     color: rgba(136, 136, 136, 1);
+
+
+   }
+   .el-moudle .el-col{
+     padding:15px;
+     
+   }
+   .ft-moudle{
+     overflow: hidden;
+    width:100%;
+    line-height:0;
+   }
+ 
+   img{
+     width:100%;
+     height:50px;
+     padding:0;
+     margin:0 !important;
+   }
+   .genre{ 
+   font-size:12px !important;
+   line-height:26px;
+     text-align: center;
+    background-color: #666;
+   color:#fff;
+   }
+   .genre-writh{
+     background-color:white;
+     color:#000;
+   }
+   .el-button{
+     
+     padding:6px 10px;
+   }
+   .el-dialog{height:235px;}
+   .el-dialog__header{
+     width:220px !important;
+     line-height:20px;
+   }
+   .el-dialog__body{
+    line-height:26px;
+   }
+   .el-dialog__footer{
+    line-height:26px;
+
+   }
+  .pictureAccompany{
+  
+    position: relative;
+ 
+   }
+   .el-collapse-item__header i{
+   
+    position: relative;
+    top:18px;
+   }
+   .iconRing{
+ 
+     position:relative;
+     right:26px;
+   }
+  
